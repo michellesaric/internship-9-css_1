@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+}
+
+.navigation-bar {
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-bar button {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    font-size: 10px;
+    padding: 10px 15px 12px 15px;
+}
+
+.left-button {
+    margin-left: 20px;
+}
+
+.right-button {
+    margin-right: 20px;
+}
+
+.left-button:hover {
+    color: gray;
+    background-color: #cca300;
+}
+
+.right-button:hover {
+    color: navy;
+}
+
+.header {
+    height: 548px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content {
+    width: 40%;
+}
+
+.header-text {
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.first-section {
+    background-color: black;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first-section-div {
+    color: white;
+    font-size: 15px;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.lorem-ipsum-button {
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid #ffcc00;
+    color:  #ffcc00;
+}
+
+.lorem-ipsum-button:hover {
+    background-color: navy;
+    border: 2px solid white;
+    color: white;
+}
+
+.second-section {
+    background-color: darkgray;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.second-section-div {
+    color: white;
+    font-size: 10px;
+    width: 200px;
+    height: auto;
+    text-align:left;
+    line-height: 15px;
+    padding: 1px 5px;
+    margin: 30px 0px 0px 25px;
+    background-color: gray;
+}
+
+.second-section-lower-div {
+    width: 500px;
+    height: 400px;
+    padding: 20px 20px;
+    margin-top: 200px;
+    background-color: white;
+    margin-left: 17%;
+
+}
+.second-section-lower-div-h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.second-section-lower-div button {
+    font-size: 10px;
+    padding: 10px 45px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.second-section-lower-div button:hover{
+    background-color: navy;
+    border: none;
+    color: white;
+}
