@@ -3,9 +3,13 @@ body {
 }
 
 .navigation-bar {
-    background-color: #ffcc00;
     display: flex;
     justify-content: space-between;
+    background-color: #ffcc00;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navigation-bar button {
@@ -53,6 +57,8 @@ body {
 }
 
 .first-section {
+    position: sticky;
+    top: 33.2px;
     background-color: black;
     height: 140px;
     display: flex;
@@ -125,4 +131,8 @@ body {
     background-color: navy;
     border: none;
     color: white;
+}
+
+.abc {
+    height: 600px;
 }
